@@ -1,2 +1,2 @@
-# study_datasciencefromscratch
-O'Reilly Data Science from Scratch 개인공부
+# study_datascienceandpython
+개인공부 기록들

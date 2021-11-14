@@ -7,8 +7,7 @@
 - Positional encoding을 사용함(입력 단어의 위치를 표현, context 이해 향상)
 
 # Model Architecture
-
-![스크린샷 2021-11-14 15.19.42.png](Transformer%2027467dc66759458dad9166bb9b9f727c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-11-14_15.19.42.png)
+<img src="/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-11-14_15.19.42.png" width="50%" height="50%">
 
 - Encoder input : $X = [X_0, X_1, ..., X_n]$
 - Decoder
@@ -22,8 +21,7 @@
     
 
 # Scaled Dot-Product Attention
-
-![스크린샷 2021-11-14 15.33.50.png](Transformer%2027467dc66759458dad9166bb9b9f727c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-11-14_15.33.50.png)
+<img src="/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-11-14_15.33.50.png" width="50%" height="50%">
 
 - Comparison
 : $C = softmax(\frac{K^TQ}{\sqrt{d_k}})$

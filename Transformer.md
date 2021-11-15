@@ -28,6 +28,6 @@
 - Multi-Head Attention
     - Q, K, V의 차원을 감소시킴
     - h개의 layer로 나누어 병렬적으로 연산 출력시에 linear 연산을 통해서 출력 단어 종류의 수에 맞춤
-    : $Linear_i(V,K,Q) = (V,K,Q)W_{(V,K,Q), i} \in \R^{d_v \times d_{model}}$
+    : $Linear_i(V,K,Q) = (V,K,Q)W_{(V,K,Q), i} \in \mathbb{R}^{d_v \times d_{model}}$
 - Mask(opt.)
 : 자기 자신을 포함한 미래의 값과는 attention을 구하지 않기 때문에 masking을 사용하여 V의 범위를 제한시키는 필터
